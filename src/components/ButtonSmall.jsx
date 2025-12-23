@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import React from "react";
 
 const Smallbutton = () => {
   return (
