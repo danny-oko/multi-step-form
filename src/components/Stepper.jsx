@@ -1,8 +1,7 @@
 import React from "react";
 
 const Stepper = () => {
-  let step = 0;
-  return <div>{step}</div>;
+  // return <div>Stepper</div>;
 };
 
 export default Stepper;
