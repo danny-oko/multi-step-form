@@ -5,10 +5,12 @@ import ThirdStep from "./steps/ThirdStep.jsx";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<FirstStep />} />
-      <Route path="/second-step" element={<SecondStep />} />
-      <Route path="/third-step" element={<ThirdStep />} />
-    </Routes>
+    <div className="w-full h-[100vh] flex flex-col items-center justify-center bg-main">
+      <Routes>
+        <Route path="/" element={<FirstStep />} />
+        <Route path="/second-step" element={<SecondStep />} />
+        <Route path="/third-step" element={<ThirdStep />} />
+      </Routes>
+    </div>
   );
 }

@@ -1,8 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Smallbutton = () => {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1);
+  };
+
   return (
-    <button className="bg-black cursor-pointer rounded-[6px] text-white w-[280px] h-[44px]">
+    <button
+      onClick={handleBack}
+      className="bg-black cursor-pointer rounded-[6px] text-white w-[280px] h-[44px]"
+    >
       Continue 2 / 3
     </button>
   );
