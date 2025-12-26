@@ -5,9 +5,7 @@ const Smallbutton = () => {
   const navigate = useNavigate();
 
   return (
-    <button
-      className="bg-black cursor-pointer rounded-[6px] text-white w-[280px] h-[44px]"
-    >
+    <button className="bg-black cursor-pointer rounded-[6px] text-white w-[280px] h-[44px]">
       Continue 2 / 3
     </button>
   );
